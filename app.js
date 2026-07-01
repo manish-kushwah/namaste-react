@@ -17,6 +17,9 @@
  *. ReactElement are objects, they converted to html then got rendered in html dom
  */
 
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const elements = React.createElement("div", { id: "section" }, [
   React.createElement("div", { id: "parent1", key: "parent1" }, [
     React.createElement("h1", { id: "p1child1", key: "p1child1" }, "parent 1 h1"),

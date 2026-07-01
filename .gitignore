@@ -3,3 +3,5 @@ git_key.pub
 
 
 /node_modules
+/.parcel-cache
+/dist

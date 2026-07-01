@@ -13,11 +13,19 @@
   "license": "ISC",
   "author": "Manish Kushwah",
   "type": "module",
-  "main": "app.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
     "parcel": "^2.16.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "Browserslist": [
+    "last 2 versions"
+  ]
 }
